@@ -1,0 +1,9 @@
+.intro__list {
+  margin: 0;
+  width: 690px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+}

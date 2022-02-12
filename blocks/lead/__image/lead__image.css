@@ -1,4 +1,6 @@
 .lead__image {
-  max-width: 928px;
-  max-height: 580px;
+  margin: 0 auto;
+  width: 100vw;
+  height: 62.5;
+  /*580/928= 0.625*/
 }
