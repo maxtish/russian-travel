@@ -1,4 +1,9 @@
 .cover__title {
+  position: absolute;
+  top: 245px;
+  right: 312px;
+  z-index: 1;
+  width: 560px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
