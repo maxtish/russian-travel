@@ -1,8 +1,12 @@
 .place__paragraph {
-  width: 484px;
+  margin: 28px 0 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   /* or 29px */
+  grid-area: place__paragraph;
+}
+.place__paragraph:first-of-type {
+  margin-top: 0;
 }
