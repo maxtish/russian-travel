@@ -1,0 +1,6 @@
+.cover__background {
+  width: 1184px;
+  height: 740px;
+  object-fit: scale-down;
+  background: url(../../../images/cover-trains.jpg);
+}
