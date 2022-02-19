@@ -1,5 +1,7 @@
 .footer__links {
+    display: grid;
     list-style: none;
     padding: 0;
+    grid-template-columns: repeat(5, min-content);
     gap: 18px;
 }

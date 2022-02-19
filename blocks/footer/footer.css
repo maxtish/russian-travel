@@ -1,4 +1,12 @@
 .footer {
+  max-width: 1184px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
 }
+
+/*
+{
+    grid-area: place__title;
+  } 
+
+  */
