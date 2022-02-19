@@ -1,5 +1,4 @@
 .footer {
   display: grid;
-  grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
