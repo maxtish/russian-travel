@@ -1,12 +1,5 @@
 .cover__overlay {
-  display: block;
-  width: 1184px;
-  height: 740px;
-  background: #2a2c2f;
-  opacity: 0.3;
-  transition: 0.5s;
-}
-
-.cover__overlay:hover {
-  opacity: 0.8;
+ display: block;
+ text-decoration: none;
+ color: #FFFFFF; 
 }
