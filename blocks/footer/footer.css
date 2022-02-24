@@ -1,13 +1,17 @@
 .footer {
   margin: 0 auto;
   max-width: 1184px;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 92px 48px 24px;
 }
 
-/*
-{
-    grid-area: place__title;
-  } 
-
-  */
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(1, min-content);
+    grid-template-rows: repeat(2, min-content);
+    padding: 64px 16px 24px;
+    gap: 48px;
+  }
+}
