@@ -9,7 +9,8 @@
     "place__title place__website"
     "place__image place__paragraph"
     "place__image .";
-  gap: 48px 40px;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .place:first-of-type {
@@ -23,7 +24,13 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 710px) {
   .place {
     padding-top: 50px;
     grid-template-columns: minmax(320px, 1fr);
@@ -34,6 +41,7 @@
       "place__image"
       "place__image"
       "place__paragraph";
+    row-gap: 32px;
     /* justify-items: center;*/
   }
 }

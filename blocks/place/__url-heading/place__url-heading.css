@@ -9,7 +9,7 @@
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .place__url-heading {
     padding: 0 16px;
   }
