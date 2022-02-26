@@ -9,3 +9,7 @@
   /* identical to box height, or 112% */
   color: #ffffff;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+}
