@@ -12,8 +12,6 @@
   text-align: center;
 }
 
-
-
 @media screen and (max-width: 600px) {
   .cover__title {
     padding-top: calc((62.5% - 134px) / 2);
@@ -23,5 +21,3 @@
     max-width: 288px;
   }
 }
-
-

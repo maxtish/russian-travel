@@ -3,7 +3,6 @@
   width: 100%;
   max-width: 984px;
   max-height: 62.5;
-  /*580/928= 0.625*/
 }
 
 @media screen and (max-width: 1024px) {

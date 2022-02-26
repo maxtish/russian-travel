@@ -5,12 +5,11 @@
   padding: 0;
   grid-template-columns: repeat(5, min-content);
   gap: 18px;
- 
 }
 
 @media screen and (max-width: 710px) {
   .footer__links {
-   grid-template-columns: repeat(1, min-content);
+    grid-template-columns: repeat(1, min-content);
     grid-template-rows: repeat(5, min-content);
     gap: 32px;
   }
