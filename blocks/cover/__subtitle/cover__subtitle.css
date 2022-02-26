@@ -13,11 +13,12 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .cover__subtitle {
+    padding-left: calc((100% - 288px) / 2);
     padding-top: 16px;
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
+    max-width: 288px;
   }
 }
