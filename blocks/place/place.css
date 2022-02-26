@@ -3,7 +3,7 @@
   padding-top: 80px;
   display: grid;
   max-width: 984px;
-  grid-template-columns: repeat(2, minmax(340px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "place__title place__website"
@@ -12,8 +12,20 @@
   gap: 48px 40px;
 }
 
-@media screen and (max-width: 768px) {
+.place:first-of-type {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
   .place {
+    padding-top: 72px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding-top: 50px;
     grid-template-columns: minmax(320px, 1fr);
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
@@ -22,6 +34,6 @@
       "place__image"
       "place__image"
       "place__paragraph";
-      /* justify-items: center;*/
+    /* justify-items: center;*/
   }
 }
