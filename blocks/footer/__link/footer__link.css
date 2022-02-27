@@ -8,6 +8,7 @@
   line-height: 18px;
   /* identical to box height, or 112% */
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__link:hover {

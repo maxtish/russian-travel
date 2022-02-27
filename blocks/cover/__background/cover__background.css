@@ -1,11 +1,9 @@
 .cover__background {
   position: relative;
-  margin: 0 auto;
-  height: 62.5vw; 
+  height: 62.5vw;
   max-height: 740px;
-  max-width: 1184px;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;  
+  background-size: cover;
 }
 
 .cover__background::before {
@@ -18,6 +16,7 @@
   left: 0;
   content: "";
   box-sizing: border-box;
+  transition: 0.8s;
 }
 
 .cover__background:hover::before {
